@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Department | ABC College</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #12345a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1d5685;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        /* Sections */
+        section {
+            padding: 35px 8%;
+            margin: 20px auto;
+            background-color: white;
+            max-width: 1100px;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #12345a;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #1d5685;
+            padding-bottom: 8px;
+        }
+
+        /* Faculty and Facilities */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #eaf2fa;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 220px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1d5685;
+            margin-bottom: 8px;
+        }
+
+        /* Contact */
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #12345a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 25px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+
+            section {
+                padding: 25px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Department of Electronics and Communication</h1>
+        <p>ABC College of Engineering</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Department</h2>
+        <p>
+            Welcome to the Department of Electronics and Communication
+            Engineering. We focus on quality education, innovation,
+            research and practical learning to prepare students
+            for successful careers in technology.
+        </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Department</h2>
+        <p>
+            The Department of Electronics and Communication Engineering
+            provides students with strong technical knowledge and
+            practical skills in electronics, communication systems,
+            embedded systems and modern technologies.
+        </p>
+        <p>
+            Our department encourages innovation, teamwork,
+            technical excellence and overall student development.
+        </p>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty">
+        <h2>Our Faculty</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>Dr. Anil Kumar</h3>
+                <p>Head of the Department</p>
+            </div>
+
+            <div class="card">
+                <h3>Prof. Priya Nair</h3>
+                <p>Assistant Professor</p>
+            </div>
+
+            <div class="card">
+                <h3>Prof. Rahul Menon</h3>
+                <p>Associate Professor</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Programmes -->
+    <section id="programmes">
+        <h2>Academic Programmes</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>B.Tech</h3>
+                <p>Bachelor of Technology in Electronics
+                and Communication Engineering.</p>
+            </div>
+
+            <div class="card">
+                <h3>M.Tech</h3>
+                <p>Postgraduate programme in advanced
+                electronics and communication.</p>
+            </div>
+
+            <div class="card">
+                <h3>Workshops</h3>
+                <p>Technical workshops, seminars and
+                skill development programmes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities">
+        <h2>Department Facilities</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>Electronics Lab</h3>
+                <p>Practical experiments and circuit design.</p>
+            </div>
+
+            <div class="card">
+                <h3>Computer Lab</h3>
+                <p>Modern computers and technical software.</p>
+            </div>
+
+            <div class="card">
+                <h3>Library</h3>
+                <p>Books, journals and digital learning resources.</p>
+            </div>
+
+            <div class="card">
+                <h3>Seminar Hall</h3>
+                <p>Technical presentations and academic events.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-info">
+            <p><b>Department:</b> Electronics and Communication Engineering</p>
+            <p><b>College:</b> ABC College of Engineering</p>
+            <p><b>Address:</b> Kerala, India</p>
+            <p><b>Email:</b> ece@abccollege.edu</p>
+            <p><b>Phone:</b> +91 9876543210</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ABC College of Engineering.
+        All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
